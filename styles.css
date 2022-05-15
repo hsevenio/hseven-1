@@ -208,9 +208,7 @@ input.sumbit-button {
     -webkit-transform: translate(-50%, 300%);
     width: 450px;
     height: auto;
-    background: rgba(0, 0, 0, 0.8);
-    backdrop-filter: blur(80px);
-    -webkit-backdrop-filter: blur(50px);
+    background: rgba(0, 0, 0, 0.95);
     border: 1px solid white;
     padding: 40px 60px;
 
@@ -228,15 +226,14 @@ input.sumbit-button {
     padding: 4px 0;
 }
 
-.contacts-popup p * {
-    margin: 5px 0;
-}
-
 .contacts-popup a {
     color: white;
     padding: 5px;
     border-radius: 5px;
-    margin: 5px;
+    display: inline-block;
+    margin: 5px 0;
+    height: 45px;
+    line-height: 33px;
 }
 
 .discord-link {
