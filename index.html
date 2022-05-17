@@ -77,10 +77,19 @@
                 <input type="hidden" name="subject"  value="H7 Contact Form" />
 
                 <label for="email">E-mail</label><br>
-                <input type="text" class="text-input" id="email" name="email"><br>
+                <input type="text" class="text-input" id="email inpu" name="email" style="height: 32px"><br>
+
+                <label for="project-name">Name of Project</label><br>
+                <input type="text" class="text-input" id="project-name inpu" name="project-name" style="height: 32px"><br>
+
+                <label for="website-link">Website Link</label><br>
+                <input type="text" class="text-input" id="website-link inpu" name="website-link" style="height: 32px"><br>
+
+                <label for="budget">Project Budget Range</label><br>
+                <input type="text" class="text-input" id="budget inpu" name="budget" style="height: 32px"><br>
 
                 <label for="project-details">Describe your project:</label><br>
-                <textarea class="text-input project-input" rows="19" id="project" name="project-details"></textarea><br>
+                <textarea class="text-input project-input" rows="5" id="project" name="project-details"></textarea><br>
 
                 <div data-netlify-recaptcha="true"></div>
                 
@@ -92,9 +101,11 @@
     <div class="hiderc" onclick="toggleContacts()"></div>
     <div class="contacts-popup">
         <h3>Contacts</h3>
-        <a class="discord-link" href="https://discord.gg/hseven"><img class="glyph discord-glyph" src="assets/discord.png">https://discord.gg/hseven</a><br>
-        <a class="calendly-link" href="https://calendly.com/hseven"><img class="glyph calendly-glyph" src="assets/calendly.png">https://calendly.com/hseven</a><br>
-        <a class="twitter-link" href="https://twitter.com/hseven"><img class="glyph twitter-glyph" src="assets/twitter.png">https://twitter.com/hseven</a><br>
+        <div class="contact-link-container">
+            <a class="discord-link" href="https://discord.gg/hseven"><img class="glyph discord-glyph" src="assets/discord.png"></a><br>
+            <a class="calendly-link" href="https://calendly.com/hseven"><img class="glyph calendly-glyph" src="assets/calendly.png"></a><br>
+            <a class="twitter-link" href="https://twitter.com/hseven"><img class="glyph twitter-glyph" src="assets/twitter.png"></a><br>
+        </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js">
