@@ -169,7 +169,7 @@ footer a:hover {
     padding: 0 5px;
 }
 
-input#email {
+input#email, input#project-name, input#website-link, input#budget {
     height: 32px;
 }
 
@@ -228,12 +228,18 @@ input.sumbit-button {
 
 .contacts-popup a {
     color: white;
-    padding: 5px;
+    padding: 15px;
     border-radius: 5px;
     display: inline-block;
     margin: 5px 0;
     height: 45px;
     line-height: 33px;
+}
+
+.contact-link-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .discord-link {
@@ -254,9 +260,8 @@ input.sumbit-button {
 
 .glyph {
     width: 25px;
-    padding-right: 5px;
     position: relative;
-    top: 3px;
+    top: -5px;
 }
 
 .discord-glyph, .twitter-glyph {
