@@ -102,11 +102,16 @@
     <div class="contacts-popup">
         <h3>Contacts</h3>
         <div class="contact-link-container">
-            <a class="discord-link" href="https://discord.gg/hseven"><img class="glyph discord-glyph" src="assets/discord.png"></a><br>
-            <a class="calendly-link" href="https://calendly.com/hseven"><img class="glyph calendly-glyph" src="assets/calendly.png"></a><br>
-            <a class="twitter-link" href="https://twitter.com/hseven"><img class="glyph twitter-glyph" src="assets/twitter.png"></a><br>
+            <a class="discord-link" onclick="discordMessage()"><img class="glyph discord-glyph" src="assets/discord.png"></a><br>
+            <a class="calendly-link" href="https://calendly.com/hseven" target="_blank"><img class="glyph calendly-glyph" src="assets/calendly.png"></a><br>
+            <a class="twitter-link" href="https://twitter.com/H7Blockchain" target="_blank"><img class="glyph twitter-glyph" src="assets/twitter.png"></a>
         </div>
     </div>
+
+    <div class="discord-modal">
+        <p>The Discord is currently locked to exclusive network invitees only. If you are interested in being part of the H7 Network please E-mail contact@hseven.io.</p>
+    </div>
+    <div class="hider-modal" onclick="discordMessage()"></div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js">
     </script>

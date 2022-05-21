@@ -54,3 +54,10 @@ var toggleContacts = function() {
     contacts.classList.toggle('is-open');
     hiderc.classList.toggle('is-open')
 }
+
+const discordModal = document.querySelector('.discord-modal');
+const hiderModal = document.querySelector('.hider-modal');
+var discordMessage = function() {
+    discordModal.classList.toggle('is-open');
+    hiderModal.classList.toggle('is-open');
+}
