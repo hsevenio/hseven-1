@@ -204,8 +204,8 @@ input.sumbit-button {
     position: fixed;
     top: 55%;
     left: 50%;
-    transform: translate(-50%, 500%);
-    -webkit-transform: translate(-50%, 300%);
+    transform: translate(-50%, 1000%);
+    -webkit-transform: translate(-50%, 1000%);
     width: 450px;
     height: auto;
     background: rgba(0, 0, 0, 0.95);
@@ -288,8 +288,8 @@ input.sumbit-button {
     position: fixed;
     top:55%;
     left: 50%;
-    transform: translate(-50%, 500%);
-    -webkit-transform: translate(-50%, 500%);
+    transform: translate(-50%, 1000%);
+    -webkit-transform: translate(-50%, 1000%);
     width: 450px;
     height: auto;
     background: rgba(0, 0, 0, 0.95);
