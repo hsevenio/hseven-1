@@ -204,8 +204,8 @@ input.sumbit-button {
     position: fixed;
     top: 55%;
     left: 50%;
-    transform: translate(-50%, 500%);
-    -webkit-transform: translate(-50%, 300%);
+    transform: translate(-50%, 1000%);
+    -webkit-transform: translate(-50%, 1000%);
     width: 450px;
     height: auto;
     background: rgba(0, 0, 0, 0.95);
@@ -244,6 +244,7 @@ input.sumbit-button {
 
 .discord-link {
     background-color: #5865F2;
+    cursor: pointer;
 }
 
 .twitter-link {
@@ -280,6 +281,44 @@ input.sumbit-button {
 }
 
 .is-open.hiderc {
+    display: block;
+}
+
+.discord-modal {
+    position: fixed;
+    top:55%;
+    left: 50%;
+    transform: translate(-50%, 1000%);
+    -webkit-transform: translate(-50%, 1000%);
+    width: 450px;
+    height: auto;
+    background: rgba(0, 0, 0, 0.95);
+    border: 1px solid white;
+    padding: 40px 60px;
+    z-index: 9;
+
+    transition: all 0.5s ease-in-out;
+}
+
+.is-open.discord-modal {
+    opacity: 1;
+    transform: translate(-50%, -80%);
+    -webkit-transform: translate(-50%, -80%);
+}
+
+.hider-modal {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0%;
+    display: none;
+    z-index: 8;
+}
+
+.is-open.hider-modal {
     display: block;
 }
 
